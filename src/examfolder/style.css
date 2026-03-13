@@ -1,0 +1,159 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:gray; 
+  display: flex;
+  justify-content: flex-start;
+  gap:15px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+li a:hover {
+  background-color: #b0b0b0; 
+  color: white;
+}
+
+
+
+
+/*form design*/
+
+
+h1 
+{
+  text-align: center;
+  color: black;
+}
+
+form 
+{
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f2f2f2; 
+  border-radius: 6px;
+}
+
+div 
+{
+  margin-bottom: 15px;
+}
+
+label 
+{
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: black;
+}
+
+input, textarea, button 
+{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus 
+{
+  border-color: #666;
+  outline: none;
+}
+
+button 
+{
+  background-color: #666;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover 
+{
+  background-color: #444;
+}
+
+
+/*view books*/
+
+
+h1, h2 {
+  text-align: center;
+  color: grey;
+}
+
+table 
+{
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: lightgrey; 
+  border: 1px solid #aaa;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+  color: #222;
+}
+
+th {
+  background-color: grey; 
+  color: white;
+}
+
+
+
+
+
+body {
+  background-color: #d9d9d9; 
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+  margin-top: 40px;
+}
+
+img {
+  display: block;
+  margin: 40px auto 20px auto; 
+  max-width: 600px;
+  height:300px;
+ 
+  border-radius: 6px;
+}
+
+p {
+  font-size: 18px;
+  color: #222;
+  font-style: italic;
+  margin-top: 10px;
+}
+
